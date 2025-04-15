@@ -1,0 +1,158 @@
+/* ====== GLOBAL STYLES ====== */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+}
+
+/* ====== CONTAINER UTAMA ====== */
+.DHASBORD {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.DHASBORD .div {
+    background-color: #ffffff;
+    width: 430px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ====== HEADER ====== */
+.header-container {
+    background: linear-gradient(#18b93b 70%, #0047bb);
+    color: white;
+    padding: 20px;
+    border-radius: 19px;
+    width: 95%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.welcome-text {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.user-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.status-text {
+    font-size: 12px;
+}
+
+/* ====== WALLET CARD ====== */
+.wallet-card {
+    background-color: #0047bb;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 15px;
+    width: 90%;
+    text-align: center;
+}
+
+.wallet-title {
+    font-size: 14px;
+}
+
+.wallet-balance {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ====== MENU ====== */
+.menu-title {
+    font-size: 20px;
+    color: #000000;
+    margin: 20px 0 10px 20px;
+    align-self: flex-start;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 15px;
+    width: 95%;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.menu-text {
+    font-size: 11px;
+    color: #000000;
+}
+
+/* ====== BAGIAN BAWAH ====== */
+.bottom-section {
+    background-color: #3de427;
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.bottom-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.bottom-icon-link {
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.bottom-text {
+    margin-top: 5px;
+}
+
+/* ====== TOMBOL TENGAH (MUTASI) ====== */
+.bottom-section .btn-mutasi {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    padding: 0;
+}
